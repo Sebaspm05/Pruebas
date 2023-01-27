@@ -56,6 +56,8 @@ At= transform(A)
 Bt= transform(B)
 
 ax1= fig.add_subplot(121)
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 ax2 =fig.add_subplot(122)
 ax1.arrow(0,0,A[0],A[1],head_width= 0.2)
 ax1.arrow(0,0,B[0],B[1],head_width=0.2)
